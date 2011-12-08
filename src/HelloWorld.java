@@ -1,6 +1,8 @@
 
 public class HelloWorld {
-
+	static int key = 123;
+	static int crypt;
+	
 	public HelloWorld(){
 		;
 	}
@@ -9,15 +11,22 @@ public class HelloWorld {
 		System.out.println(hej);
 	}
 	
-	public void call1(){
-		System.out.println("En loooooooooop!");
-		call1();
+	public int encrypt(int key){
+		crypt = key + 1;
+		return crypt;
+	}
+	
+	
+	public void decrypt(int crypt){
+		int pass = crypt - 1;
+		System.out.println(pass);
 	}
 	
 	public static void main(String args []){
 		HelloWorld hej = new HelloWorld();
 		hej.hello("Hej världen!");
-		hej.call1();
+		hej.encrypt(key);
+		hej.decrypt(crypt);
 		
 	
 	}
