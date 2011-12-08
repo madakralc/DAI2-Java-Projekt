@@ -1,4 +1,12 @@
 Project: GoodNameHere liek WEHAVELECOOKIEZ?
-Authors: Adam Clark, Mathias Bjurb�ck, Dag Frid�n
+Authors: Adam Clark, Mathias Bjurbäck, Dag Fridén
 Purpose:
 We gonna take over the world.
+
+Använda github på windows.
+  1. Installera github enligt guiden, rsa-nycklar m.m..
+  2. Gör en mapp någonstans, gå in i den och skriv 'git init' i mingw(Git Bash)
+  3. Skriv 'git pull LÄNKTILLREPONHÄR.git' Nu har man alla filer på sin dator.
+  4. Committa som vanligt typ 'git commit -a -m "vad man uppdaterat" 
+    -a = all | -m = message
+  5. GG GL HF!
